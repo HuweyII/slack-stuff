@@ -9,6 +9,6 @@ scriptname "botname" "emoji" "channel" "message"<br>
 4. message = Whatever you are sending.<br/>
 *NOTE: emoji won't display right on mobile a lot of the time.<br>
 
-*Original PHP script my srv1054.<br/>
+*Original PHP script by srv1054.<br/>
 Port to Python3 by HuweyII.*
                            
