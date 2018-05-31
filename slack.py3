@@ -26,7 +26,7 @@ except:
 	print("Usement: " + sys.argv[0] + " \"botname\" \"emoji\" \"channel\" \"message\"")
 
 # Format JSON data to send
-data = json.dumps({"channel":channel,"username":channel,"text":msg,"icon_emoji":emoji})
+data = json.dumps({"channel":channel,"username":botname,"text":msg,"icon_emoji":emoji})
 
 # Send the data to the Slack API
 params = data.encode('utf8')
